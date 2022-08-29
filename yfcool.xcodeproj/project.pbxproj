@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A4C0AE28BD153C004E2EFF /* pinkdot.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A128BD153B004E2EFF /* pinkdot.png */; };
+		18A4C0AF28BD153C004E2EFF /* greendot.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A228BD153B004E2EFF /* greendot.png */; };
+		18A4C0B028BD153C004E2EFF /* minus1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A328BD153B004E2EFF /* minus1.png */; };
+		18A4C0B128BD153C004E2EFF /* bluetooth1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A428BD153B004E2EFF /* bluetooth1.png */; };
+		18A4C0B228BD153C004E2EFF /* bluedot.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A528BD153B004E2EFF /* bluedot.png */; };
+		18A4C0B328BD153C004E2EFF /* infomation.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A628BD153B004E2EFF /* infomation.png */; };
+		18A4C0B428BD153C004E2EFF /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A728BD153B004E2EFF /* power.png */; };
+		18A4C0B528BD153C004E2EFF /* reddot.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A828BD153B004E2EFF /* reddot.png */; };
+		18A4C0B628BD153C004E2EFF /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0A928BD153B004E2EFF /* add.png */; };
+		18A4C0B728BD153C004E2EFF /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0AA28BD153C004E2EFF /* ic_launcher.png */; };
+		18A4C0B828BD153C004E2EFF /* interface.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0AB28BD153C004E2EFF /* interface.png */; };
+		18A4C0B928BD153C004E2EFF /* add1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0AC28BD153C004E2EFF /* add1.png */; };
+		18A4C0BA28BD153C004E2EFF /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0AD28BD153C004E2EFF /* bluetooth.png */; };
+		18A4C0BC28BD1824004E2EFF /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0BB28BD1823004E2EFF /* minus.png */; };
+		18A4C0BE28BD18BF004E2EFF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0BD28BD18BF004E2EFF /* logo.png */; };
+		18A4C0C028BD1AA4004E2EFF /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C0BF28BD1AA4004E2EFF /* battery.png */; };
 		18AAAE5C28B4C8A50083C77D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAAE5B28B4C8A50083C77D /* AppDelegate.m */; };
 		18AAAE5F28B4C8A50083C77D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAAE5E28B4C8A50083C77D /* SceneDelegate.m */; };
 		18AAAE6228B4C8A50083C77D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAAE6128B4C8A50083C77D /* ViewController.m */; };
@@ -25,6 +41,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A4C0A128BD153B004E2EFF /* pinkdot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkdot.png; sourceTree = "<group>"; };
+		18A4C0A228BD153B004E2EFF /* greendot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greendot.png; sourceTree = "<group>"; };
+		18A4C0A328BD153B004E2EFF /* minus1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus1.png; sourceTree = "<group>"; };
+		18A4C0A428BD153B004E2EFF /* bluetooth1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth1.png; sourceTree = "<group>"; };
+		18A4C0A528BD153B004E2EFF /* bluedot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluedot.png; sourceTree = "<group>"; };
+		18A4C0A628BD153B004E2EFF /* infomation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infomation.png; sourceTree = "<group>"; };
+		18A4C0A728BD153B004E2EFF /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power.png; sourceTree = "<group>"; };
+		18A4C0A828BD153B004E2EFF /* reddot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reddot.png; sourceTree = "<group>"; };
+		18A4C0A928BD153B004E2EFF /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		18A4C0AA28BD153C004E2EFF /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		18A4C0AB28BD153C004E2EFF /* interface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interface.png; sourceTree = "<group>"; };
+		18A4C0AC28BD153C004E2EFF /* add1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add1.png; sourceTree = "<group>"; };
+		18A4C0AD28BD153C004E2EFF /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth.png; sourceTree = "<group>"; };
+		18A4C0BB28BD1823004E2EFF /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		18A4C0BD28BD18BF004E2EFF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		18A4C0BF28BD1AA4004E2EFF /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery.png; sourceTree = "<group>"; };
 		18AAAE5728B4C8A50083C77D /* yfcool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yfcool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AAAE5A28B4C8A50083C77D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18AAAE5B28B4C8A50083C77D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +145,22 @@
 		18AAAE8228B52E1A0083C77D /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				18A4C0BF28BD1AA4004E2EFF /* battery.png */,
+				18A4C0BD28BD18BF004E2EFF /* logo.png */,
+				18A4C0BB28BD1823004E2EFF /* minus.png */,
+				18A4C0A928BD153B004E2EFF /* add.png */,
+				18A4C0AC28BD153C004E2EFF /* add1.png */,
+				18A4C0A528BD153B004E2EFF /* bluedot.png */,
+				18A4C0AD28BD153C004E2EFF /* bluetooth.png */,
+				18A4C0A428BD153B004E2EFF /* bluetooth1.png */,
+				18A4C0A228BD153B004E2EFF /* greendot.png */,
+				18A4C0AA28BD153C004E2EFF /* ic_launcher.png */,
+				18A4C0A628BD153B004E2EFF /* infomation.png */,
+				18A4C0AB28BD153C004E2EFF /* interface.png */,
+				18A4C0A328BD153B004E2EFF /* minus1.png */,
+				18A4C0A128BD153B004E2EFF /* pinkdot.png */,
+				18A4C0A728BD153B004E2EFF /* power.png */,
+				18A4C0A828BD153B004E2EFF /* reddot.png */,
 				18AAAE8328B52E1A0083C77D /* explain.jpg */,
 				18AAAE8428B52E1A0083C77D /* about.jpg */,
 				18AAAE8528B52E1A0083C77D /* back.png */,
@@ -195,12 +243,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A4C0B828BD153C004E2EFF /* interface.png in Resources */,
 				18AAAE6A28B4C8AA0083C77D /* LaunchScreen.storyboard in Resources */,
 				18AAAE8628B52E1B0083C77D /* explain.jpg in Resources */,
 				18AAAE8828B52E1B0083C77D /* back.png in Resources */,
+				18A4C0B628BD153C004E2EFF /* add.png in Resources */,
+				18A4C0AE28BD153C004E2EFF /* pinkdot.png in Resources */,
 				18AAAE6528B4C8A50083C77D /* Main.storyboard in Resources */,
+				18A4C0B528BD153C004E2EFF /* reddot.png in Resources */,
+				18A4C0BC28BD1824004E2EFF /* minus.png in Resources */,
+				18A4C0BA28BD153C004E2EFF /* bluetooth.png in Resources */,
+				18A4C0B328BD153C004E2EFF /* infomation.png in Resources */,
+				18A4C0BE28BD18BF004E2EFF /* logo.png in Resources */,
 				18AAAE8A28B714780083C77D /* Assets.xcassets in Resources */,
 				18AAAE8728B52E1B0083C77D /* about.jpg in Resources */,
+				18A4C0B928BD153C004E2EFF /* add1.png in Resources */,
+				18A4C0B228BD153C004E2EFF /* bluedot.png in Resources */,
+				18A4C0B428BD153C004E2EFF /* power.png in Resources */,
+				18A4C0C028BD1AA4004E2EFF /* battery.png in Resources */,
+				18A4C0B028BD153C004E2EFF /* minus1.png in Resources */,
+				18A4C0B128BD153C004E2EFF /* bluetooth1.png in Resources */,
+				18A4C0AF28BD153C004E2EFF /* greendot.png in Resources */,
+				18A4C0B728BD153C004E2EFF /* ic_launcher.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,11 +452,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = KVC8NZTYE2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = yfcool/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "this app will attemp to connect peripheral  using bluetooth.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "You need to turn on Bluetooth to connect your device";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "this app will  connect peripheral  devices using Bluetooth";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -402,8 +467,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cool.yfcool;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yf.cool.yfcool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,11 +482,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = KVC8NZTYE2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = yfcool/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "this app will attemp to connect peripheral  using bluetooth.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "You need to turn on Bluetooth to connect your device";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "this app will  connect peripheral  devices using Bluetooth";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -431,8 +497,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cool.yfcool;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yf.cool.yfcool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

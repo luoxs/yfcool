@@ -28,23 +28,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [self setAutoLayout];
+    
+    //初始化BabyBluetooth 蓝牙库
+    baby = [BabyBluetooth shareBabyBluetooth];
+    //设置蓝牙委托
+    [self babyDelegate];
+    
     realtemp = 0;
     tempsetting = 0;
     unitceis = YES;
     powerstatus = YES;
     
-    baby = [BabyBluetooth shareBabyBluetooth];
-    // Do any additional setup after loading the view.
-    [self setAutoLayout];
-    
-    //初始化BabyBluetooth 蓝牙库
-    
-    baby = [BabyBluetooth shareBabyBluetooth];
-    //设置蓝牙委托
-    [self babyDelegate];
     //设置委托后直接可以使用，无需等待CBCentralManagerStatePoweredOn状态
     //baby.scanForPeripherals().begin();
-    //baby.scanForPeripherals().begin(15);
+    //baby.scanForPeripherals().begin(10);
     /*
     baby.scanForPeripherals().connectToPeripherals().discoverServices()
         .discoverCharacteristics().readValueForCharacteristic().discoverDescriptorsForCharacteristic()
@@ -69,6 +68,9 @@
     //设置扫描到设备的委托
     [baby setBlockOnDiscoverToPeripherals:^(CBCentralManager *central, CBPeripheral *peripheral, NSDictionary *advertisementData, NSNumber *RSSI) {
         NSLog(@"扫描到了设备:%@",peripheral.name);
+        if([peripheral.name isEqualToString:@"YF-REF"]){
+            [central stopScan];
+        }
     }];
     
     //设置设备连接成功的委托,同一个baby对象，使用不同的channel切换委托回调
@@ -505,7 +507,7 @@
     
     //information show
     UIButton *btAbout = [[UIButton alloc]init];
-    [btAbout setBackgroundImage:[UIImage imageNamed:@"information"] forState:UIControlStateNormal];
+    [btAbout setBackgroundImage:[UIImage imageNamed:@"infomation"] forState:UIControlStateNormal];
     [self.view addSubview:btAbout];
     btAbout.sd_layout
         .centerYEqualToView(btInterface)

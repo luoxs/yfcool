@@ -164,6 +164,15 @@
                         
                     case 0x04:{   //实时温度
                         self->realtemp = r[2];
+                        
+                        Byte r2 = r[2];
+                        if(r2>0x2c){
+                            r2 = 0xff - r[2] + 1;   //负数补码表示,取绝对值
+                            self->realtemp = r2 *(-1);  //相反数
+                        }else{
+                            self->realtemp = r2;
+                        }
+                        
                         UILabel *lbreal = (UILabel *)[weakSelf.view viewWithTag:600];
                         if(self->unitceis){
                             lbreal.text = [NSString stringWithFormat:@"%d℃",self->realtemp];
